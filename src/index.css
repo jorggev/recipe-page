@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Media Queries para Desktop a 1440px */
+@media (min-width: 1440px) {
+  * {
+    background-color: var(--color-eggshell);
+  }
+
+  .App {
+    margin: 50px 500px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  #root {
+    background-color: var(--color-eggshell);
+  }
+}

@@ -1,0 +1,34 @@
+.container-instructions {
+  font-family: var(--font-secondary);
+}
+
+.instructions-list {
+    padding: 0px 0px 20px 20px;
+    font-weight: 300;
+}
+
+.instructions-list li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.instructions-list li::marker {
+  color: var(--color-nutmeg);
+  font-weight: bold;
+}
+
+.instructions-item {
+    font-family: var(--font-secondary);
+    color: var(--color-wenge-brown);
+    font-weight: 500;
+}
+.bold-text-instructions {
+  font-weight: bold;
+}
+
+/* Media Queries para Desktop a 1440px */
+@media (min-width: 1440px) {
+  .container-instructions, .title-brown, .instructions-list, .instructions-item, .bold-text-instructions{
+    background-color: var(--color-white);
+  }
+}

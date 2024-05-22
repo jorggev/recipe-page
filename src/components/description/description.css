@@ -1,0 +1,11 @@
+.description{
+    font-family: var(--font-secondary);
+    color: var(--color-wenge-brown);
+}
+
+/* Media Queries para Desktop a 1440px */
+@media (min-width: 1440px) {
+    .description{
+      background-color: var(--color-white);
+    }
+  }

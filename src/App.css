@@ -1,0 +1,41 @@
+#root {
+  background-color: var(--color-white);
+}
+
+.second-root {
+  padding: 10px;
+  margin: 20px;
+}
+
+.title-one {
+  font-size: 40px;
+  color: var(--color-dark-charcoal);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header-image{
+  width: 100%;
+}
+
+.divider-line {
+  border: none;
+  height: 1px;
+  background-color: var(--color-light-grey); 
+  margin: 20px 0;
+}
+
+/* Media Queries para Desktop a 1440px */
+@media (min-width: 1440px) {
+  .App{
+    background-color: var(--color-white);
+  }
+
+  .second-root, .title-one{
+    background-color: var(--color-white);
+  }
+
+  .title-one{
+    margin-top: 20px;
+  }
+}

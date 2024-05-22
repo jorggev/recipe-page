@@ -1,0 +1,12 @@
+.nutrition-container {
+  font-family: var(--font-secondary);
+  color: var(--color-wenge-brown);
+  font-weight: 500;
+}
+
+/* Media Queries para Desktop a 1440px */
+@media (min-width: 1440px) {
+  .nutrition-container, p {
+    background-color: var(--color-white);
+  }
+}

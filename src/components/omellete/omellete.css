@@ -1,0 +1,9 @@
+/* Media Queries para Desktop a 1440px */
+@media (min-width: 1440px) {
+  .omellete-container,
+  .header-image {
+    background-color: var(--color-white);
+    border-radius: 20px;
+    width: 100%;
+  }
+}

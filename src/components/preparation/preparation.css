@@ -1,0 +1,59 @@
+.preparation-container {
+  background-color: var(--color-rose-white);
+  font-family: var(--font-secondary);
+  margin: 30px 0px;
+  border-radius: 15px;
+}
+
+.title-raspberry {
+  color: var(--color-dark-raspberry);
+  padding: 20px 20px 10px 20px;
+  font-weight: 500;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: var(--color-dark-charcoal);
+}
+
+.preparation-list {
+  padding: 0px 30px 20px 50px;
+  font-weight: 300;
+}
+
+.preparation-list li {
+  margin-bottom: 10px;
+  padding-left: 30px; /* Ajusta el espacio entre el marcador y el contenido */
+}
+
+.preparation-list li::marker {
+  color: var(--color-dark-raspberry); /* Usa el color que prefieras */
+}
+
+.item-list {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* Media Queries para Desktop a 1440px */
+@media (min-width: 1440px) {
+  .preparation-container,
+  .title-raspberry,
+  .preparation-list,
+  .item-list {
+    background-color: var(--color-white);
+  }
+
+  .preparation-container {
+    border-radius: 15px;
+  }
+
+  .preparation-container,
+  .title-raspberry,
+  .preparation-list,
+  .item-list,
+  .bold-text {
+    background-color: var(--color-rose-white);
+  }
+}

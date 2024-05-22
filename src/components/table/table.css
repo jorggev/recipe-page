@@ -1,0 +1,45 @@
+.simple-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.simple-table th,
+.simple-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd; /* Solo la línea inferior */
+}
+
+.simple-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd; /* Línea más gruesa para el header */
+}
+
+.simple-table th:first-child,
+.simple-table td:first-child {
+  border-left: none;
+}
+
+.simple-table th:last-child,
+.simple-table td:last-child {
+  border-right: none;
+}
+
+.simple-table tr:last-child td {
+  border-bottom: none; /* Elimina la línea inferior de la última fila */
+}
+
+.column-brown{
+    color: var(--color-nutmeg);
+    font-weight: bold;
+}
+
+/* Media Queries para Desktop a 1440px */
+@media (min-width: 1440px) {
+  .simple-table, td,  .column-brown {
+    background-color: var(--color-white);
+  }
+}
