@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite (Responsive)
 
 Live site URL: https://recipe-page-lovat-five.vercel.app/
 
